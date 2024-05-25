@@ -1,7 +1,8 @@
-const Screen = () => {
-    return(
+const Screen = ({screenValue}) => {
+
+    return (
         <div className="flex justify-end items-center text-5xl p-4 font-semibold">
-            <h1>0</h1>
+            <h1>{screenValue}</h1>
         </div>
     )
 }
